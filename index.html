@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css"/>
+    <title>Namaste React</title>
+</head>
+<body>
+    <!-- how to show hello world by using html h1 tag -->
+    <div id="root">
+        <!-- <h1>Paramita</h1> -->
+    </div>
+
+    <!-- how to show hello world by using js..inside that we need to show h1 tag -->
+    <!-- <script>
+        const heading = document.createElement("h1");
+        heading.innerHTML= "Hello World from JS !!";
+
+        const root = document.getElementById("root");
+        root.appendChild(heading); 
+    </script> -->
+<!-- core react file -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<!-- used to modify dom , mainly a bridge btw react and browser-->
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- <script>
+        const heading = React.createElement("h1", {}, "Hello World from React!");
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+        root.render(heading);
+    </script> -->
+
+    <!-- If we call a new js file-->
+     <script src="./nested-react.js"></script>
+</body>
+</html>
